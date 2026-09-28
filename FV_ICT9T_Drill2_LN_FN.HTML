@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+ <html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Q1 Drill 2</title>
+    <style>
+       body {
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            background-color: green;
+            margin: 0;
+            min min-height: auto;
+        }
+        section{
+            display: block;
+margin: auto;
+width: 500px;
+height: 500px;
+background-color: rgb(252, 252, 252);
+  text-align: center;
+  padding: 15px;
+        }
+        
+        header{
+            text-align: center;
+        }
+        img{
+            height: 100px;   
+            width: 100px;
+        }
+        select, input[type="submit"], textarea{
+            width: 100%;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+<h1>Rate a movie</h1>
+<img src="https://static.vecteezy.com/system/resources/previews/022/580/623/original/movie-media-letter-logo-design-illustration-free-vector.jpg">
+<p>Say something about the content</p>
+    </header>
+<br>
+
+<section>
+    <form action="">
+        <label for="movie">Select a movie</label>
+        <select id="movie" name="movie">
+            <option value="">Select a movie</option>
+            <option value="movie1">Spiderman No Way Home</option>
+            <option value="movie2">Spiderman Harry Potter and the philosophers stone</option>
+            <option value="movie3">Obsession</option>
+        </select>
+        <br>
+
+        <label for ="Genre">Genres</label>
+        <br>
+        <input type="checkbox" id="genre" name="genre1" value="genre">
+        <lablel for="Genre1">Suspence</lablel>
+
+<input type="checkbox" id="genre" name="genre2" value="genre">
+        <lablel for="Genre2">Love</lablel>
+
+        <input type="checkbox" id="genre" name="genre3" value="genre">
+        <lablel for="Genre3">Action</lablel>
+
+        <input type="checkbox" id="genre" name="genre4" value="genre">
+        <lablel for="Genre4">Drama</lablel>
+        <input type="checkbox" id="genre" name="genre5" value="genre">
+        <lablel for="Genre5">Fantasy</lablel>
+<br><br>
+<label for="rate" style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">Rating</label>
+<br>
+<input type="radio" id="rate1" name="rating" value="rate1">
+        <lablel for="rate1">⭐</lablel>
+        <input type="radio" id="rate2" name="rating" value="rate2">
+        <lablel for="rate2">⭐⭐</lablel>
+        <input type="radio" id="rate3" name="rating" value="rate3">
+        <lablel for="rate3">⭐⭐⭐</lablel>
+        <input type="radio" id="rate4" name="rating" value="rate4">
+        <lablel for="rate4">⭐⭐⭐⭐</lablel>
+        <input type="radio" id="rate5" name="rating" value="rate5">
+        <lablel for="rate5">⭐⭐⭐⭐⭐</lablel>
+        <br><br>
+        <textarea id="review" name="review" cols="100" rows="10" placeholder="Write your review here..."></textarea>
+<br><br>
+<input type="submit" id="submit" name="submit" value="Submit a Review">
+<br>
+For more tips click here <a href="https://www.wikihow.com/Write-a-Movie-Review" targets="_blank">here.</a>
+    </form>
+</section>
+</body>
+</html>
